@@ -1,0 +1,487 @@
+.custom-navbar .navbar-nav .nav-link {
+    color: #333; /* Darker color for links */
+    font-size: 1.25rem; /* Increased font size */
+    margin-right: 1.5rem; /* Space between links */
+    padding: 0.5rem 0.75rem;
+    transition: color 0.3s ease;
+  }
+  
+  .custom-navbar .navbar-nav {
+    justify-content: center; /* Center the navbar items */
+  }
+  
+  .custom-navbar .btn-book {
+    background-color: #286ea7; /* Green button color */
+    color: #fff;
+    padding: 0.5rem 1.5rem; /* Increased padding */
+    border-radius: 0.25rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-navbar .btn-book:hover {
+    background-color: #232188; /* Darker green on hover */
+  }
+
+  .logo {
+    height: 50px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between logo and text */
+  }
+  
+/* Contact Section Styling */
+.contact-section {
+    background: url('images/dental.jpg') no-repeat center center/cover;
+    color: black;
+    padding: 50px 0;
+}
+
+.contact-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center; /* Center heading */
+}
+
+/* Change colors to match your logo */
+.contact-heading .highlight {
+    color: #ff6b6b; /* Color for "A Premier" - replace with your logo color */
+}
+
+.contact-heading span {
+    color: #007bff; /* Color for "Dental Clinic in Islamabad" - replace with your logo color */
+    font-weight: bold;
+    font-size: 3em; /* Larger text for emphasis */
+}
+
+/* Button Styling */
+.contact-section .btn-primary {
+    background-color: #ff6b6b; /* Match your logo color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Form Styling */
+.contact-section form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-heading {
+        font-size: 1.8em; /* Smaller font size for mobile */
+    }
+
+    .contact-section form {
+        width: 90%; /* Adjust form width */
+        margin: 20px auto; /* Center on smaller screens with margin */
+    }
+
+    .contact-section .col-md-6, .contact-section .col-md-5 {
+        text-align: center; /* Center text on smaller devices */
+        margin-bottom: 30px; /* Space between sections */
+    }
+}
+
+/* Dentist Intro Section */
+.dentist-intro-section {
+    background-color: #f8f9fa; /* Light background color for the section */
+    padding: 60px 15px; /* Adjust padding as needed */
+}
+
+.dentist-image {
+    width: 100%; /* Responsive image */
+    max-width: 300px; /* Maximum width for the image (smaller size) */
+    border-radius: 10px; /* Rounded corners for the image */
+}
+
+.intro-heading {
+    font-size: 32px; /* Larger heading size for more emphasis */
+    margin-bottom: 15px; /* Space below heading */
+    font-weight: bold; /* Bold text */
+    color: #007bff; /* Match your site color */
+    text-align: center; /* Center heading */
+}
+
+.intro-description {
+    font-size: 28px; /* Increased description size for more visibility */
+    color: black; /* Text color */
+    font-weight: 400; /* Normal text weight */
+    line-height: 1.6; /* Increased line height for better readability */
+    max-width: 600px; /* Optional: limit width for better alignment */
+    margin: 0 auto; /* Center the text */
+    text-align: center; /* Center the description */
+}
+
+/* Responsive Adjustments for Dentist Section */
+@media (max-width: 768px) {
+    .intro-heading {
+        font-size: 28px; /* Smaller heading size for mobile */
+    }
+
+    .intro-description {
+        font-size: 22px; /* Smaller description for mobile */
+    }
+
+    .dentist-image {
+        max-width: 100%; /* Ensure the image scales down on smaller screens */
+    }
+}
+
+/* Heading Styles */
+.heading-title, .heading-subtitle {
+    text-align: center; /* Center align titles */
+}
+
+@media (max-width: 768px) {
+    .heading-title {
+        font-size: 28px; /* Smaller heading size for mobile */
+    }
+
+    .heading-subtitle {
+        font-size: 20px; /* Smaller subheading for mobile */
+    }
+
+    .intro-description {
+        font-size: 16px; /* Smaller description for mobile */
+    }
+}
+
+/* Additional Styling for Why Choose Section */
+/* Why Choose Section Styling */
+.why-choose-section {
+    background-color: #f8f9fa; /* Light background for the section */
+    padding: 40px 15px; /* Adjust padding for the section */
+}
+
+.why-choose-section h2 {
+    color: #007bff; /* Primary color for headings */
+    margin-bottom: 20px; /* Space below heading */
+    font-size: 2.5em; /* Larger heading size */
+    font-weight: bold; /* Bold heading */
+}
+
+.why-choose-section p {
+    color: #333; /* Darker text color for readability */
+    margin-bottom: 30px; /* Space below paragraph */
+    font-size: 0.9em; /* Smaller font size for text */
+}
+
+.service-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin-bottom: 20px; /* Space below each service list */
+}
+
+.service-list li {
+    background: #ffffff; /* White background for each service */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding around text */
+    margin: 10px 0; /* Space between list items */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center vertically */
+    transition: box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.service-list li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.service-list li i {
+    color: #28a745; /* Green color for check icons */
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 1.5em; /* Larger icon size */
+}
+
+.carousel-item img {
+    max-height: 400px; /* Set a max height for carousel images */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.text-center {
+    margin-top: 20px; /* Space above button */
+}
+
+/* Button Styling */
+.why-choose-section .btn-primary {
+    background-color: #007bff; /* Primary color for the button */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding for button */
+    font-size: 18px; /* Font size for button */
+    border-radius: 25px; /* Rounded corners */
+    font-weight: bold; /* Bold button text */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .why-choose-section h2 {
+        font-size: 1.8em; /* Smaller heading size for mobile */
+    }
+
+    .service-list li {
+        padding: 10px; /* Less padding on smaller screens */
+    }
+
+    .why-choose-section .btn-primary {
+        width: 100%; /* Full-width button on smaller screens */
+    }
+}
+
+
+/* Testimonials Section Styling */
+.testimonials-section {
+    padding: 50px 15px; /* Padding for the section */
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.testimonial {
+    background: white; /* White background for testimonials */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding for testimonials */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin: 15px 0; /* Margin for spacing */
+    text-align: center; /* Centered text */
+}
+
+.testimonial-img {
+    width: 80px; /* Set width for images */
+    height: 80px; /* Set height for images */
+    border-radius: 50%; /* Circular images */
+    margin-bottom: 15px; /* Space below image */
+}
+
+.testimonial-text {
+    font-size: 1.1em; /* Font size for testimonial text */
+    color: #333; /* Dark color for text */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.testimonial-author {
+    font-weight: bold; /* Bold author name */
+    color: #007bff; /* Author name color */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .testimonial {
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+
+    .testimonial-img {
+        width: 60px; /* Smaller width for images */
+        height: 60px; /* Smaller height for images */
+    }
+
+    .testimonial-text {
+        font-size: 1em; /* Smaller font size for mobile */
+    }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .testimonial-item {
+        max-width: 80%; /* Adjust max width for smaller screens */
+    }
+
+    .heading-title {
+        font-size: 28px; /* Smaller heading size for mobile */
+    }
+
+    .testimonial-item p {
+        font-size: 16px; /* Smaller text for mobile */
+    }
+
+    .testimonial-item h4 {
+        font-size: 14px; /* Smaller name size for mobile */
+    }
+}
+
+/* Responsive Styles for Hero Section */
+.hero {
+    height: 60vh;
+    padding: 10px;
+}
+
+.hero-text h1 {
+    font-size: 24px;
+}
+
+.hero-text p {
+    font-size: 16px;
+}
+
+/* Navbar Toggler for Mobile */
+.navbar-toggler {
+    display: inline-block; /* Show dropdown button */
+    padding: 10px; /* Padding */
+    width: 150px; /* Maintain fixed width */
+    text-align: left; /* Align text to left */
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.service-card {
+    background-color: #fff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding inside the card */
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.service-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.service-image {
+    width: 100%; /* Full width */
+    height: 150px; /* Fixed height for consistency */
+    object-fit: cover; /* Crop image to cover the area */
+    border-radius: 10px; /* Rounded corners for images */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .service-image {
+        height: 120px; /* Smaller height on mobile */
+    }
+}
+
+.about-us {
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.about-image {
+    border: 5px solid #007bff; /* Blue border around the image */
+    padding: 5px; /* Padding inside the border */
+}
+
+.about-text {
+    
+    border-radius: 10px; /* Rounded corners for text container */
+    padding: 20px; /* Padding inside the text container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.about-heading {
+    font-size: 2.5em; /* Larger heading size for emphasis */
+    color: #ff6b6b; /* Different color for heading */
+    margin-bottom: 15px; /* Space below heading */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center heading */
+}
+
+.about-description {
+    font-size: 1.1em; /* Readable text size */
+    color: #333; /* Darker text for better readability */
+    line-height: 1.6; /* Increase line height for readability */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .about-heading {
+        font-size: 2em; /* Smaller heading size for mobile */
+    }
+
+    .about-description {
+        font-size: 1em; /* Smaller description for mobile */
+    }
+}
+
+
+
+/* Footer Section Styling */
+.footer-section {
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark text color */
+    padding: 50px 15px; /* Padding around the section */
+    font-size: 14px; /* Base font size */
+    border-top: 1px solid #ddd; /* Light border on top */
+}
+
+/* Logo and Mission Styling */
+.footer-logo {
+    width: 150px; /* Set logo size */
+}
+
+.footer-mission {
+    font-size: 0.9em; /* Smaller font for mission text */
+    color: #555; /* Softer color */
+    line-height: 1.6; /* Better readability */
+}
+
+/* Contact and Quick Links Styling */
+.footer-section h5 {
+    color: #007bff; /* Primary color for headings */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #007bff; /* Hover color */
+}
+
+/* Social Media Icons Styling */
+.social-icons a {
+    color: #007bff;
+    font-size: 1.2em; /* Larger icons */
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0056b3; /* Darker hover color */
+}
+
+/* Map Styling */
+.footer-map iframe {
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer Bottom Styling */
+.footer-bottom {
+    border-top: 1px solid #ddd; /* Top border */
+    padding-top: 15px;
+    font-size: 0.8em; /* Smaller text */
+    color: #777; /* Light color */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer-section {
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .footer-section .col-md-3 {
+        margin-bottom: 30px; /* Space between columns */
+    }
+
+    .footer-logo {
+        margin-bottom: 20px; /* Space below logo */
+    }
+}

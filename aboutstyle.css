@@ -1,0 +1,273 @@
+/* Dentist Intro Section */
+.dentist-intro-section {
+    background-color: #f8f9fa; /* Light background color for the section */
+    padding: 60px 15px; /* Adjust padding as needed */
+}
+
+.intro-image {
+    width: 100%; /* Responsive image */
+    max-width: 100%; /* Ensure image does not exceed parent width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.intro-heading {
+    font-size: 32px; /* Larger heading size for more emphasis */
+    margin-bottom: 15px; /* Space below heading */
+    font-weight: bold; /* Bold text */
+    color: #007bff; /* Match your site color */
+    text-align: center; /* Center heading on smaller screens */
+}
+
+.intro-description {
+    font-size: 18px; /* Standard description size */
+    color: black; /* Text color */
+    font-weight: 400; /* Normal text weight */
+    line-height: 1.6; /* Increased line height for better readability */
+    max-width: 600px; /* Optional: limit width for better alignment */
+    margin: 0 auto; /* Center the text */
+    text-align: center; /* Center the description */
+}
+
+/* Button Styling */
+.btn {
+    width: 100%; /* Make button full width */
+    max-width: 200px; /* Limit button width */
+    margin: 0 auto; /* Center button */
+}
+
+/* Responsive Adjustments for Dentist Section */
+@media (max-width: 768px) {
+    .intro-heading {
+        font-size: 28px; /* Smaller heading size for mobile */
+    }
+
+    .intro-description {
+        font-size: 16px; /* Smaller description for mobile */
+    }
+
+    .intro-image {
+        max-width: 90%; /* Allow more room for smaller devices */
+    }
+}
+
+/* Additional styles to ensure good alignment */
+@media (min-width: 768px) {
+    .dentist-intro-section .row {
+        display: flex; /* Ensure proper layout on medium and larger devices */
+    }
+
+    .dentist-intro-section .col-md-6 {
+        margin-bottom: 0; /* Remove bottom margin on larger screens */
+    }
+}
+
+
+/* Mission Section Styling */
+.mission-section {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 50px 0; /* Padding for the section */
+}
+
+.mission-image {
+    width: 100%; /* Make image responsive */
+    max-width: 600px; /* Maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Center the image and add space around it */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.mission-section h2 {
+    font-size: 2.5em; /* Adjust heading size */
+    margin-bottom: 15px; /* Space below heading */
+    color: #007bff; /* Match your site color */
+}
+
+.mission-section p {
+    font-size: 1.2em; /* Adjust paragraph size */
+    max-width: 800px; /* Optional: limit width for better alignment */
+    margin: 0 auto; /* Center the text */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .mission-section h2 {
+        font-size: 2em; /* Smaller heading size for mobile */
+    }
+
+    .mission-section p {
+        font-size: 1em; /* Smaller paragraph size for mobile */
+    }
+}
+
+/* Review Section Styling */
+.review-section {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.review-card {
+    background: #ffffff; /* White background for reviews */
+    border: 1px solid #ddd; /* Light border */
+    transition: box-shadow 0.3s ease; /* Smooth shadow effect */
+}
+
+.review-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.stars {
+    color: #ffcc00; /* Gold color for stars */
+    font-size: 20px; /* Star size */
+}
+
+.star {
+    margin: 0 2px; /* Space between stars */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .review-card {
+        margin-bottom: 20px; /* Space between cards on smaller screens */
+    }
+
+    .review-section h2 {
+        font-size: 2em; /* Smaller heading for mobile */
+    }
+}
+
+
+/* Our Team Section Styling */
+.our-team-section {
+    background-color: #f8f9fa; /* Light background */
+    text-align: center;
+}
+
+.our-team-section h2 {
+    color: #007bff; /* Primary color */
+    font-weight: bold;
+}
+
+.team-member h4 {
+    font-size: 1.25em; /* Slightly larger font */
+    color: #333;
+    margin-top: 10px;
+}
+
+.team-member p {
+    color: #555;
+    font-size: 0.95em; /* Smaller font for position */
+}
+
+.team-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Ensures image fills the area without distortion */
+    border: 3px solid #007bff; /* Adds a border for a uniform style */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .team-img {
+        width: 120px; /* Smaller image size on mobile */
+        height: 120px;
+    }
+
+    .our-team-section h2 {
+        font-size: 1.8em; /* Slightly smaller heading on mobile */
+    }
+
+    .team-member h4 {
+        font-size: 1.1em; /* Smaller team member name on mobile */
+    }
+}
+
+
+/* Footer Section Styling */
+.footer-section {
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark text color */
+    padding: 50px 15px; /* Padding around the section */
+    font-size: 14px; /* Base font size */
+    border-top: 1px solid #ddd; /* Light border on top */
+}
+
+/* Logo and Mission Styling */
+.footer-logo {
+    width: 150px; /* Set logo size */
+}
+
+.footer-mission {
+    font-size: 0.9em; /* Smaller font for mission text */
+    color: #555; /* Softer color */
+    line-height: 1.6; /* Better readability */
+}
+
+/* Contact and Quick Links Styling */
+.footer-section h5 {
+    color: #007bff; /* Primary color for headings */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #007bff; /* Hover color */
+}
+
+/* Social Media Icons Styling */
+.social-icons a {
+    color: #007bff;
+    font-size: 1.2em; /* Larger icons */
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0056b3; /* Darker hover color */
+}
+
+/* Map Styling */
+.footer-map iframe {
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer Bottom Styling */
+.footer-bottom {
+    border-top: 1px solid #ddd; /* Top border */
+    padding-top: 15px;
+    font-size: 0.8em; /* Smaller text */
+    color: #777; /* Light color */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer-section {
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .footer-section .col-md-3 {
+        margin-bottom: 30px; /* Space between columns */
+    }
+
+    .footer-logo {
+        margin-bottom: 20px; /* Space below logo */
+    }
+}
